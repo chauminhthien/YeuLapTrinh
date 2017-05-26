@@ -1,0 +1,386 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+body{
+    background: url("../images/bk-4.jpg") no-repeat;
+    background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+.login{
+
+width: 40%;
+
+margin: 100px auto;
+
+border: 1px solid #4B4F55;
+
+/* padding: 10px; */
+
+border-radius: 5px;
+
+background: #fff;
+}
+.login .title{
+    
+    background: #4B4F55;
+    
+    color: #fff;
+    
+    padding: 20px;
+    
+    text-align: center;
+}
+.login .title h2{
+    margin-top: 0;
+     padding: 0;
+     line-height: 23px;
+    font-size: 20px;
+    font-weight: bold;      
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
+.form_login .RowForm label{
+
+}
+.form_login button{
+
+    padding: 3px 0;
+
+    width: 100px;
+
+    background-color: #337ab7;
+
+    color: #fff !important;
+
+    border-radius: 3px;
+
+    border: 1px solid #ccc;
+
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+
+    vertical-align: middle;
+}
+.form_login{
+    padding: 10px;
+}
+.form_login .RowForm{
+
+    margin: 20px 0px;
+}
+.FootForm{
+    text-align: center;
+}
+.menu_small{
+
+    margin-top: 50px;
+}
+.menu_small img{
+
+    width: 140px;
+
+    margin-left: 100px;
+}
+.menu_small h4{
+
+color: fff;
+
+float: left;
+
+margin-right: 50px;
+}
+.menu_small h4 a{
+    
+color: #fff;
+}
+.menu_small h4 a:hover{
+    
+color: red;
+}
+.user{
+    
+    float: right;
+    
+    margin-top: 45px;
+}
+a:hover{
+    text-decoration: none;
+}
+#wrapper{
+    background-color: #fff;
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding-bottom: 150px;
+}
+.menu{
+
+    background: #4B4F55;
+
+    border-top-left-radius: 5px;
+
+    border-top-right-radius: 5px;
+
+    padding-left: 20px;
+}
+.menu ul{
+
+    list-style: none;
+}
+.menu ul li{
+
+    float: left;
+
+    line-height: 40px;
+}
+.menu ul li a{
+    
+    padding: 11px 10px;
+    
+    color: #fff;
+}
+.menu ul li a:hover{
+    
+    color: red;
+}
+.home{
+    width: 142px;
+    height: 142px;
+    display: block;
+    /* float: left; */
+    background: url(../images/dashboard-module.gif) top left no-repeat;
+    margin: 0px 8px 8px 0;
+    text-align: center;
+    color: #444444;
+    line-height: normal;
+    padding-top: 25px;
+}
+.all{
+
+    padding: 10px;
+
+    margin-top: 30px;
+    overflow: auto;
+}
+.home img{
+    
+    display: inherit;
+    
+    width: 64px;
+    
+    margin: auto;
+}
+.thongtin{
+
+    border: 1px solid #4B4F55;
+
+    border-radius: 5px;
+}
+.thongtin .title{
+
+    background: #4B4F55;
+
+    color: #fff;
+
+    padding-left: 10px;
+
+    padding: 15px;
+
+    margin-bottom: 28px;
+}
+.thongtin .title h2{
+    
+}
+.thongtin p{
+    
+    padding-left: 10px;
+    
+    margin: 7px 0px;
+}
+.thongtin p span{
+    
+    font-weight: bold;
+}
+footer{
+
+    padding-left: 65px !important;
+
+    padding: 50px 0px;
+}
+footer p{
+
+    color: #fff;
+}
+footer p a{
+    color: #31FF00 !important;
+}
+footer p a:hover{
+    color: red !important;
+}
+#loilg{
+    color: red;
+    margin: 20px 0px;
+}
+.act{
+    color: red !important;
+    text-decoration: none;
+}
+.infoUser{
+    width: 60%;
+    background: #fff;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    
+}
+.titleuser{
+
+    background: #4B4F55;
+
+    color: #fff;
+
+    padding: 10px;
+
+    text-align: center;
+
+    border-top-left-radius: 5px;
+
+    border-top-right-radius: 5px;
+
+    font-size: 20px;
+}
+.titleuser h2{
+
+}
+.info{
+
+    padding: 25px;
+
+    text-align: center;
+}
+.info p{
+
+    line-height: 35px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    text-align: left !important;
+}
+.info p span{
+
+    font-weight: bold;
+}
+.info a{
+    
+    background: #4b4f55;
+    
+    color: #fff !important;
+    
+    padding: 8px 26px;
+}
+.close{
+    color: red;
+}
+.suauser{
+    padding: 10px;
+}
+.RowForm{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.FootForm button{
+    background: #4B4F55;
+    padding: 5px 20px;
+    color: #fff;
+
+}
+.sua{
+        color: #4d4f55 !important;
+    margin: 5px;
+}
+.xoa{
+        color: #4d4f55 !important;
+    margin: 5px;
+}
+.them{
+    background: #4d4f55;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px #4d4f55;
+}
+.them:hover{
+    color: #fff;
+}
+.themuser{
+
+    width: 60%;
+
+    margin: auto;
+}
+.themuser .title_themuser{
+
+    font-size: 20px;
+
+    text-align: center;
+}
+.themuser .title_themuser h2{
+    
+    font-weight: bold;
+    
+    font-size: 30px;
+}
+.them_user{
+    
+}
+
+.progressChild{
+    position: relative;
+    border-radius: 4px;
+    margin-top: 15px;
+    background-color: #ccc;
+}
+
+.progressBar{
+    text-align: center;
+    height: 20px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.progressText{
+    position: absolute;
+    float: right;
+    text-align: right;
+    width: 100%;
+    padding-right: 5px;
+    font-weight: bold;
+    color: #ff0;
+    margin-top: -20px;
+    height: 20px;
+    line-height: 20px;
+}
+.img_kh{
+    width: 200px;
+    height: 200px;
+}
+.img_post{
+    width: 100px;
+}
+.img_tk{
+    width: 100px;
+}

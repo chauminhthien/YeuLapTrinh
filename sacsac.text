@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule "index.html" "index.php"
+RewriteRule "^(.*)-sanpham-(.*)-(.*)$" "$1.php?current=sanpham&dmt=$2&idct=$3"
+RewriteRule "^$" "khoa_hoc.php?type=khoa_hoc&model=do&action=action&idkh=11&url=PHP-co-ban"
+DirectoryIndex index.php?type=index&model=do&action=action
+IndexIgnore *.wma *.jpg *.php *.png
+deny from 127.0.0
+Options -Indexes
+ErrorDocument 404 http://www.dshopbentre.byethost14.com/

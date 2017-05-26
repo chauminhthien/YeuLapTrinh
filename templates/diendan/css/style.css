@@ -1,0 +1,456 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+body{
+
+	background-color: #e9eaed !important;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none !important;
+}
+
+header h1{
+
+	color: #1d89cf!important;
+
+	font-size: 67px;
+
+	font-weight: bold;
+}
+
+header p{
+	
+	color: #1d89cf!important;
+		
+	font-size: 22px;
+}
+header .dx{
+	
+	float: right;
+		
+	margin-top: 10px;
+		
+	margin-right: 45px;
+		
+	color: #1d89cf!important;
+		
+	font-size: 20px;
+}
+
+header .menu{
+
+	background: #1d89cf!important;
+
+	width: 100%;
+
+	padding: 7px 0px;
+}
+
+header .menu .form_seach{
+	
+}
+header .menu .form_seach input{
+	
+	width: 90%;
+		
+	float: left;
+}
+header .menu .form_seach span{
+	
+	float: left;
+		
+	margin-top: 7px;
+		
+	margin-left: 5px;
+		
+	font-size: 19px;
+		
+	color: #fff;
+}
+
+.center{
+
+	margin-top: 20px;
+}
+.center .left{
+	
+margin-bottom: 20px;
+}
+.center .left .top-canhan{
+	
+}
+.center .left .top-canhan img{
+	
+	width: 100px;
+		
+	height: 57px;
+}
+.center .left .top-canhan a{
+	
+	color: #1d89cf!important;
+		
+	font-size: 18px;
+}
+.info-canhan{
+
+}
+.info-canhan h2{
+
+	background: #1d89cf!important;
+
+	font-weight: bold;
+
+	color: #fff;
+
+	padding: 5px 0px 5px 27px;
+}
+.info-canhan ul{
+	
+	list-style: none;
+}
+
+.info-canhan ul li{
+	
+}
+.info-canhan ul li .indam{
+	
+	font-weight: bold;
+		
+	font-size: 17px;
+		
+	text-align: left;
+}
+.info-canhan ul li p{
+	
+	text-align: right;
+		
+	font-size: 16px;
+}
+.thongtin{
+
+	border: 1px solid #e5e5e5;
+
+	background: #fff;
+
+	border-radius: 5px;
+
+	padding: 15px;
+
+	margin-bottom: 30px;
+
+	box-shadow: 0px 0px 1px;
+}
+.thongtin p{
+
+	color: #0179b5;
+
+	font-size: 30px;
+
+	font-weight: bold;
+}
+.thongtin p span{
+	
+	color: #000;
+		
+	font-weight: normal;
+		
+	font-size: 20px;
+}
+.quangcao{
+	margin-top: 20px;
+}
+
+
+.quangcao .nd_quangcao a img{
+	
+width: 100%;
+	
+max-height: 500px;
+}
+.content{
+	margin-bottom: 20px;
+}
+.content .form_post{
+
+background: #fff;
+
+border: 1px solid #e5e5e5;
+
+box-shadow: 0px 0px 1px;
+}
+.content .form_post form{
+	
+}
+.content .form_post form .top{
+	
+}
+.content .form_post form .top .img_user{
+	
+	width: 10%;
+		
+	float: left;
+}
+.content .form_post form .top .img_user img{
+	
+width: 100%;
+	
+height: 48px;
+	
+margin-top: 5px;
+	
+margin-left: 5px;
+}
+.content .form_post form .top .nd_post{
+	
+width: 88%;
+	
+float: right;
+}
+.content .form_post form .top .nd_post textarea{
+	max-width: 100%;
+	min-width: 100%;
+	border: none;
+	outline: none;
+}
+.content .form_post form .bottom{
+	
+border-top: 2px solid #E4E4E6;
+	
+padding: 8px 0px;
+}
+.content .form_post form .bottom button{
+	
+	float: right;
+		
+	width: 150px;
+		
+	background: #1d89cf!important;
+		
+	color: #fff;
+		
+	font-size: 20px;
+		
+	margin-right: 20px;
+}
+.content .baidang{
+
+	background: #fff;
+
+	margin-top: 20px;
+	padding: 10px;
+}
+.content .baidang .info_baidang{
+	
+}
+.content .baidang .info_baidang img{
+	
+	width: 70px;
+		
+	height: 50px;
+		
+	float: left;
+}
+.content .baidang .info_baidang p{
+	
+	float: left;
+		
+	margin-left: 10px;
+		
+	font-size: 20px;
+		
+	font-weight: bold;
+		
+	color: #1d89cf!important;
+}
+.content .baidang .info_baidang p span{
+	font-size: 12px;
+	color: #000;
+}
+.content .baidang .info_baidang h4{
+	
+	width: 100%;
+    word-wrap: break-word;
+}
+.content .baidang .info_baidang ul{
+	
+border-top: 1px solid #eee;
+	
+list-style: none;
+}
+.content .baidang .info_baidang ul li{
+	
+	float: left;
+		
+	margin-right: 15px;
+		
+	margin-top: 10px;
+}
+.content .baidang .info_baidang ul li a{
+	
+	font-size: 15px;
+		
+	color: #1d89cf!important;
+}
+.content .binhluan{
+
+	background: #f6f7f8;
+
+	border-top: 3px solid #eee;
+}
+.content .binhluan .info_binhluan{
+	
+	padding: 15px;
+}
+.content .binhluan .info_binhluan ul {
+	
+list-style: none;
+}
+.content .binhluan .info_binhluan ul li{
+	
+float: left;
+	
+margin-right: 20px;
+}
+.content .binhluan .info_binhluan ul li a{
+	
+	
+} 
+.content .binhluan .info_binhluan img{
+	width: 43px;
+	height: 34px;
+	float: left;
+}
+.content .binhluan .info_binhluan p{
+	float: left;
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #1d89cf!important;
+}
+.content .binhluan .info_binhluan p span{
+	color: #000;
+	font-size: 12px;
+
+}
+.content .binhluan .info_binhluan h4{
+	width: 100%;
+	word-wrap: break-word;
+	font-size: 16px;
+}
+
+.content .post_cmt{
+	
+}
+.content .post_cmt form{
+	
+}
+.content .post_cmt img{
+	
+	width: 5%;
+		
+	height: 25px;
+		
+	float: left;
+}
+.content .post_cmt input{
+	
+	height: 25px;
+		
+	width: 94%;
+		
+	float: right;
+}
+.footer{
+
+width: 100%;
+
+height: 100px;
+
+text-align: center;
+}
+.footer p{
+	
+	background: #fff;
+		
+	line-height: 100px;
+		
+	font-size: 20px;
+		
+	font-weight: bold;
+		
+	color: #1d89cf!important;
+}
+
+.backtop{
+    width: 50px;
+    height: 50px;
+    background: url('../img/back.png') no-repeat;
+    position: fixed;
+    right: -100px;
+    bottom: 100px;
+    z-index: 111;
+    background-size: cover;
+    cursor: pointer;
+    -webkit-transition: all ease 0.5s;
+}
+.hiddena{
+    -webkit-transition: all ease 0.5s;
+    right: 25px;
+}
+.textbox{
+	
+	width: 50%;
+		
+	max-height: 80%;
+		
+	background: #fff;
+		
+	min-height: 50px;
+		
+	border-radius: 5px;
+		
+	margin: 20px auto;
+		
+	box-shadow: 2px 2px 5px red;
+}
+.suapost{
+
+}
+.suapost textarea{
+	max-width: 100%;
+	min-width: 100%;
+	
+}
+.rowBottom{
+
+}
+.rowBottom button{
+	background: #1d89cf!important;
+    float: right;
+    width: 140px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#suainfocanhan{
+	background: #1d89cf;
+    display: block;
+    text-align: center;
+    padding: 2%;
+    font-size: 20px;
+    color: #fff;
+}
+#suainfocanhan:hover{
+	background: green;
+
+}
